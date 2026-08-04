@@ -3217,6 +3217,12 @@
 		(uuid "9b9b35c9-f025-4f1b-b22a-e711d5bcab62")
 	)
 	(junction
+		(at -39.37 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a36f18fa-d963-4da6-aa0a-f12aa794ca6d")
+	)
+	(junction
 		(at 101.6 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3314,6 +3320,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 16.51) (xy 109.22 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "012488fc-dac5-4500-9e53-a5538f9ae01a")
+	)
+	(wire
+		(pts
 			(xy 25.4 46.99) (xy 68.58 46.99)
 		)
 		(stroke
@@ -3391,6 +3407,16 @@
 			(type default)
 		)
 		(uuid "0d66f414-6545-4927-a019-97d4c976ab94")
+	)
+	(wire
+		(pts
+			(xy -39.37 46.99) (xy -39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df75e86-9ad4-4b91-971f-e9134b88a14f")
 	)
 	(wire
 		(pts
@@ -4294,6 +4320,16 @@
 	)
 	(wire
 		(pts
+			(xy -45.72 46.99) (xy -39.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed3d004-b0d4-4287-8edd-470bb81dff5c")
+	)
+	(wire
+		(pts
 			(xy 45.72 99.06) (xy 45.72 110.49)
 		)
 		(stroke
@@ -4651,6 +4687,16 @@
 			(type default)
 		)
 		(uuid "b7509b66-6bdb-47d0-b7fc-bfa6e0a443f2")
+	)
+	(wire
+		(pts
+			(xy 102.87 21.59) (xy 102.87 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d5a8fa-da8a-4d99-aef8-3ac4a7a243eb")
 	)
 	(wire
 		(pts
@@ -5014,7 +5060,7 @@
 	)
 	(wire
 		(pts
-			(xy -39.37 35.56) (xy -39.37 58.42)
+			(xy -39.37 35.56) (xy -39.37 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5174,7 +5220,7 @@
 		)
 		(uuid "15040ee2-a4bc-4fc5-97f1-ac0e6e1b878b")
 	)
-	(hierarchical_label "PWR-SW"
+	(hierarchical_label "RELAT-SW"
 		(shape input)
 		(at 195.58 16.51 0)
 		(effects
@@ -5239,6 +5285,17 @@
 			(justify left)
 		)
 		(uuid "b1fb1f33-d968-4a19-8630-204b63c536a7")
+	)
+	(hierarchical_label "RELAY-PWR"
+		(shape input)
+		(at 109.22 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d12c5adc-ef34-42dd-8d4c-93d45e76ea9b")
 	)
 	(hierarchical_label "VCC"
 		(shape input)
@@ -8270,6 +8327,514 @@
 			(project "CoolCubeLM1875kicad_pro"
 				(path "/d273928c-b496-49db-97f0-9ad0f6f64c23/2cea030d-1102-43de-a709-6bbbfc09a270"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Spade connector:62409-1")
+		(at -55.88 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b9f0581-f2cb-446c-b3a2-555c3f99a99d")
+		(property "Reference" "J9"
+			(at -62.992 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at -62.992 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Spade connector:TE_62409-1"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/62409-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "POSITIONS" "2"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "APPLICATION" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tab Brass Straight PCB 0.250 x 0.032 in. 0.055 in. (PCB) Tin | TE Connectivity 62409-1"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_PATH" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SIGNAL_INTEGRITY" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" "MALE"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_PATH" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_REF" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONFIGURATION" "SINGLE ROW"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "62409-1"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_DESCRIPTION" "CONN QC TAB 0.250 SOLDER"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FINISH" "TIN"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT_RATING" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESIGNATOR" "62409-1"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS_COMPLIANT" "YES"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_RATING_AC" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/62409-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_DATE" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" "19JUN13"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICE_MODEL" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_LINK" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=62409&DocType=Customer+Drawing&DocLang=English"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" "62409-1"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_NOTE" "REVISED PER ECR-13-001204"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_RATING_DC" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" "S"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_REFERENCE" ""
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" "VERTICAL"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "5.08mm"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "QC TAB"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at -55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdf4a8be-e271-4076-b9b6-5e54556507f3")
+		)
+		(pin "2"
+			(uuid "78f3835f-3400-4782-b9e7-ebd22a5cba3e")
+		)
+		(instances
+			(project "CoolCubeLM1875kicad_pro"
+				(path "/d273928c-b496-49db-97f0-9ad0f6f64c23/2cea030d-1102-43de-a709-6bbbfc09a270"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11425,7 +11990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 257.5052 147.32 0)
 			(effects
 				(font

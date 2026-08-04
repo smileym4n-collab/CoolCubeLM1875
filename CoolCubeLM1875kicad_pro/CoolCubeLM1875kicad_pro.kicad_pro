@@ -188,6 +188,7 @@
       "track_widths": [
         0.0,
         0.4,
+        1.0,
         2.5,
         5.0
       ],
@@ -501,7 +502,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/Users/tomwatson/Documents/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

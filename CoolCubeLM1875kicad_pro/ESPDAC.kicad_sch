@@ -449,6 +449,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Custom:ESP32-Wrover-IE-N16R8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2673,6 +2780,12 @@
 		(uuid "be954d83-7928-454e-ac8e-5e57599760e0")
 	)
 	(junction
+		(at 25.4 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3464140-7e5a-4928-9b97-3f687dffe503")
+	)
+	(junction
 		(at 163.83 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3124,6 +3237,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 57.15) (xy 31.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b862512-5f9b-4116-bca6-87eef69cfe5e")
+	)
+	(wire
+		(pts
 			(xy 214.63 69.85) (xy 217.17 69.85)
 		)
 		(stroke
@@ -3421,6 +3544,16 @@
 			(type default)
 		)
 		(uuid "62e0ceb0-4ccf-47f4-901e-c5d4916f5585")
+	)
+	(wire
+		(pts
+			(xy 25.4 67.31) (xy 25.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686b0031-742b-488e-90c7-d64341c05295")
 	)
 	(wire
 		(pts
@@ -3984,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 179.07) (xy 166.37 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3fd1ca-c461-42b2-921c-f87d55fc8fb0")
+	)
+	(wire
+		(pts
 			(xy 62.23 67.31) (xy 62.23 72.39)
 		)
 		(stroke
@@ -4001,6 +4144,16 @@
 			(type default)
 		)
 		(uuid "bf106456-5b1e-4208-94ba-e2b25ea3e46b")
+	)
+	(wire
+		(pts
+			(xy 25.4 57.15) (xy 25.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f9b071-9bdc-4fdf-b882-d8d153fb0a03")
 	)
 	(wire
 		(pts
@@ -4084,7 +4237,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 57.15) (xy 31.75 57.15)
+			(xy 22.86 57.15) (xy 25.4 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4522,16 +4675,6 @@
 		)
 		(uuid "16d6eb7c-ef9d-4a58-8340-f8c0696ab0be")
 	)
-	(label "3V3"
-		(at 160.02 17.78 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18273738-2f07-456b-9185-5b2f7dfcd86c")
-	)
 	(label "AVDD"
 		(at 109.22 166.37 0)
 		(effects
@@ -4621,16 +4764,6 @@
 			(justify left bottom)
 		)
 		(uuid "a78cad68-4323-480e-ac58-3e7dbe36c5ad")
-	)
-	(label "3V3"
-		(at 171.45 17.78 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b006e35d-ec28-4eb2-93b6-ad30ecbaa002")
 	)
 	(label "LRCK"
 		(at 68.58 180.34 180)
@@ -4759,6 +4892,17 @@
 		)
 		(uuid "b925c703-86f0-4b0b-a266-0c61d35382fd")
 	)
+	(hierarchical_label "ESP3V3"
+		(shape input)
+		(at 160.02 17.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bef926a8-f520-4231-a7d2-61b7955f5aec")
+	)
 	(hierarchical_label "MONO-OUT"
 		(shape input)
 		(at 173.99 181.61 0)
@@ -4780,6 +4924,17 @@
 			(justify right)
 		)
 		(uuid "dce0641f-a3ad-4b65-a8c2-bca1bcdebacd")
+	)
+	(hierarchical_label "ESP3V3"
+		(shape input)
+		(at 171.45 17.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f12b1f16-a201-467a-b288-f6efe0e50991")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5104,6 +5259,72 @@
 			(project "CoolCubeLM1875kicad_pro"
 				(path "/d273928c-b496-49db-97f0-9ad0f6f64c23/2537d6a1-ed47-4c57-bfe5-0fee69b242f7"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ca2d698-365c-4315-b3e0-076e5d5a4b0f")
+		(property "Reference" "#PWR096"
+			(at 25.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a4884a0-d74c-411a-9e2f-54c27eef8e71")
+		)
+		(instances
+			(project "CoolCubeLM1875kicad_pro"
+				(path "/d273928c-b496-49db-97f0-9ad0f6f64c23/2537d6a1-ed47-4c57-bfe5-0fee69b242f7"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -6754,7 +6975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 53.34 64.7699 0)
 			(effects
 				(font
@@ -7281,7 +7502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "22uF"
 			(at 85.09 157.8609 0)
 			(effects
 				(font
@@ -7290,7 +7511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 80.9752 161.29 0)
 			(effects
 				(font
@@ -7526,6 +7747,76 @@
 			(project "CoolCubeLM1875kicad_pro"
 				(path "/d273928c-b496-49db-97f0-9ad0f6f64c23/2537d6a1-ed47-4c57-bfe5-0fee69b242f7"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 25.4 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93b27d13-d697-4037-9a82-5808b8760ebd")
+		(property "Reference" "C84"
+			(at 29.21 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 29.21 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 26.3652 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e339a21a-1bf2-4b9b-bf89-3d8abec89689")
+		)
+		(pin "1"
+			(uuid "e31dd519-8ed1-4892-8e18-9c1578600921")
+		)
+		(instances
+			(project "CoolCubeLM1875kicad_pro"
+				(path "/d273928c-b496-49db-97f0-9ad0f6f64c23/2537d6a1-ed47-4c57-bfe5-0fee69b242f7"
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -9071,6 +9362,73 @@
 			(project ""
 				(path "/d273928c-b496-49db-97f0-9ad0f6f64c23/2537d6a1-ed47-4c57-bfe5-0fee69b242f7"
 					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb22e18e-30d2-45d0-b837-0b63681675a8")
+		(property "Reference" "TP1"
+			(at 168.91 174.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AUDIO IN"
+			(at 168.91 177.0379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 171.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "111fc44f-43bb-423f-90b7-e1f8c78998c7")
+		)
+		(instances
+			(project ""
+				(path "/d273928c-b496-49db-97f0-9ad0f6f64c23/2537d6a1-ed47-4c57-bfe5-0fee69b242f7"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
