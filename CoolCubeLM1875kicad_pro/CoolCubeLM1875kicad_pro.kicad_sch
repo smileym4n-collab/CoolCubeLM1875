@@ -614,12 +614,6 @@
 		(uuid "234a2eb8-84ab-4412-aa95-1314e339288d")
 	)
 	(junction
-		(at 156.21 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2932f7f4-33f2-4792-9ae5-1b1e7e45bd77")
-	)
-	(junction
 		(at 199.39 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -667,6 +661,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 128.27) (xy 111.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1904c0ca-07bc-459e-93ff-00d62a2c7532")
+	)
+	(wire
+		(pts
 			(xy 199.39 39.37) (xy 199.39 48.26)
 		)
 		(stroke
@@ -694,16 +698,6 @@
 			(type default)
 		)
 		(uuid "1e6172b5-28ed-4a1a-9c78-64b32fb64d3e")
-	)
-	(wire
-		(pts
-			(xy 199.39 66.04) (xy 208.28 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef3247b-22e9-4c0d-9f84-ed84e8145356")
 	)
 	(wire
 		(pts
@@ -754,16 +748,6 @@
 			(type default)
 		)
 		(uuid "24a65ddb-481d-4975-8ec4-01fbc5d23246")
-	)
-	(wire
-		(pts
-			(xy 209.55 111.76) (xy 209.55 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecc3a63-b2af-46e8-b282-774c46935f73")
 	)
 	(wire
 		(pts
@@ -877,16 +861,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 82.55) (xy 199.39 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eaa039d-1f8b-407a-8268-f3a2513a62ef")
-	)
-	(wire
-		(pts
 			(xy 214.63 85.09) (xy 214.63 109.22)
 		)
 		(stroke
@@ -947,16 +921,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 82.55) (xy 199.39 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61dc6bbc-48d7-4b25-b032-5b4e1b1173cb")
-	)
-	(wire
-		(pts
 			(xy 153.67 99.06) (xy 153.67 109.22)
 		)
 		(stroke
@@ -994,16 +958,6 @@
 			(type default)
 		)
 		(uuid "6fd460f9-34dd-49a0-9f5c-90ed019ec3f1")
-	)
-	(wire
-		(pts
-			(xy 199.39 129.54) (xy 205.74 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f8f0f7-024d-4694-b99a-54191aa5f75c")
 	)
 	(wire
 		(pts
@@ -1367,16 +1321,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 111.76) (xy 209.55 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed37d5d1-1cfb-4256-8513-5591de522cde")
-	)
-	(wire
-		(pts
 			(xy 176.53 48.26) (xy 176.53 20.32)
 		)
 		(stroke
@@ -1424,16 +1368,6 @@
 			(type default)
 		)
 		(uuid "f90ee9b7-f89d-4d92-bc33-4a0a3ef4d977")
-	)
-	(wire
-		(pts
-			(xy 156.21 115.57) (xy 163.83 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb76fdca-c103-4d4d-883d-7ddb879bed26")
 	)
 	(wire
 		(pts
@@ -1636,12 +1570,12 @@
 		(uuid "e6e96921-d6be-4e36-8bbd-53543c27f2e5")
 	)
 	(label "WIPER"
-		(at 205.74 129.54 0)
+		(at 102.87 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ec816339-b7cf-42da-8b74-b4f02ef6b905")
 	)
@@ -2451,6 +2385,16 @@
 				(justify right)
 			)
 		)
+		(pin "WIPER" input
+			(at 111.76 128.27 180)
+			(uuid "8efb995b-e142-4ff0-b99f-e8ca043e75b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "CoolCubeLM1875kicad_pro"
 				(path "/d273928c-b496-49db-97f0-9ad0f6f64c23"
@@ -2536,16 +2480,6 @@
 		(pin "-15V" input
 			(at 208.28 57.15 180)
 			(uuid "7daf6f81-2912-47ee-b075-28e00ccb4d79")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "12VLIN" input
-			(at 208.28 66.04 180)
-			(uuid "cefdb885-35d4-4137-94eb-5be9896d58e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,49 +2609,9 @@
 				(justify right)
 			)
 		)
-		(pin "12VLDO" input
-			(at 199.39 111.76 0)
-			(uuid "665a9554-d038-449e-a7fc-91771daf3eea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PROG" input
-			(at 199.39 127 0)
-			(uuid "f627af1b-4b92-4b8e-a85e-5a0f1a7ec424")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIPER" input
-			(at 199.39 129.54 0)
-			(uuid "361f1df9-bd42-4c40-bf86-d03bf1212e32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ESP3V3" input
 			(at 163.83 109.22 180)
 			(uuid "43b89586-dfa8-4dbf-8fb7-dbdcea4de5a8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5VBUCK" input
-			(at 163.83 115.57 180)
-			(uuid "13359a94-7530-4372-94b1-6a0b98b06bac")
 			(effects
 				(font
 					(size 1.27 1.27)
