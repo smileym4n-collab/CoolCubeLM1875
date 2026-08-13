@@ -75,7 +75,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/Users/tomwatson/Documents/")
+			(outputdirectory "/Users/tomwatson/Desktop/Gerber files/LM1875Cube/")
 		)
 	)
 	(net 0 "")
@@ -48091,7 +48091,7 @@
 	(footprint "Custom:LOGONEW"
 		(layer "F.Cu")
 		(uuid "79919d68-266d-45d6-9372-3102bba0cadf")
-		(at 155.448 -4.318)
+		(at 127.762 113.919)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
